@@ -29,19 +29,19 @@ main > section ul li {
 
 /*TABLA*/
 table {
+  width: 400px;
   margin-left: 2rem;
-  margin-bottom: 5rem;
-  width: 25rem;
-  height: 10rem;
   text-align: center;
 }
-
+tr {
+  height: 2.5rem;
+}
 thead {
-  background-color: rgb(94, 135, 229);
   color: white;
 }
-tbody th:nth-of-type(even) {
-  background-color: blue;
+
+tr > th {
+  background-color: rgb(94, 135, 229);
 }
 
 tbody tr:nth-of-type(even) {
