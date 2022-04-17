@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body > header {
+  background-color: rgb(94, 135, 229);
+  color: white;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+main section h2 {
+  color: rgb(94, 135, 229);
+  padding: 1rem;
+}
+
+main > section ul li {
+  list-style: circle;
+  padding: 0.5rem;
+  margin-left: 3rem;
+}
+
+.importante {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*TABLA*/
+table {
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  width: 25rem;
+  height: 10rem;
+  text-align: center;
+}
+
+thead {
+  background-color: rgb(94, 135, 229);
+  color: white;
+}
+tbody th:nth-of-type(even) {
+  background-color: blue;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: rgb(161, 184, 239);
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: rgb(200, 212, 241);
+}
+
+#descanso {
+  text-transform: uppercase;
+  font-weight: bold;
+}
